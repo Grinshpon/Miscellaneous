@@ -15,7 +15,7 @@ int main() {
     int a = 0;
     printf("a: %d\n",a++); // 0 or 1? should increment but return original value
     printf("a: %d\n",++a); // 1 or 2? should increment and return new value
-    char s[] = "butt";
+    char s[] = "c practice";
     printf("%d\t%s\n",5+second(),s);//structure
     if(h==0)
     {
