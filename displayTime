@@ -1,0 +1,11 @@
+cur = os.time()
+h =(math.floor(cur/60/60)%12-4) --%24 for base 24 time, -4 for eastern time zone
+m =(math.floor(cur/60)%60) --minutes
+s =(cur%60) --seconds
+function writ(t)
+    return math.floor(t/10)
+end
+oh = writ(h)
+om = writ(m)
+os = writ(s)
+io.write(oh,h-oh*10,":",om,m-om*10,":",os,s-os*10)
